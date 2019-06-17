@@ -8,7 +8,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 PROMPT='
 ╭[ %{$fg[blue]%}${PWD/#$HOME/~}%{$reset_color%} ]
-- %{$fg[green]%}%*%{$reset_color%}
+- %{$fg[green]%}%W %*%{$reset_color%}
 ╰🌲 '
 
 RPROMPT='$(git_prompt_info)$(git_prompt_status)%{$reset_color%}'
