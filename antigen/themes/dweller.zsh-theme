@@ -7,7 +7,7 @@ ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%}-"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
 
 PROMPT='
-╭:: %{$fg[blue]%}${PWD/#$HOME/~}%{$reset_color%}
+╭[ %{$fg[blue]%}${PWD/#$HOME/~}%{$reset_color%} ]
 - %{$fg[green]%}%*%{$reset_color%}
 ╰🌲 '
 
